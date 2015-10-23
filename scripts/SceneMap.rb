@@ -1,7 +1,6 @@
 class SceneMap
 
 	def initialize
-		@pezzo2 = Image.new($window, "graphics/pezzo2.png", false)
 		@pointer = Image.new($window, "graphics/pointer.png", false)
 		@punch_sound = Sample.new($window, "audio/punch.wav")
 		@blood = Image.load_tiles($window, "graphics/blood2.png", 150, 150, false)
